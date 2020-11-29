@@ -1,0 +1,85 @@
+#jogo {
+  background-image: url(../images/grama.png);
+  width: 784px;
+  height: 540px;
+  margin: auto;
+  padding-top: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#botoesMenu a {
+  text-decoration: none;
+  color: #010d69;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 5px 15px;
+  margin: 40px 30px;
+  border-radius: 5px;
+}
+
+#botoesMenu #btnIniciar.ativado {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+#pistas {
+  width: 780px;
+  height: 368px;
+  background-color: #555555;
+  border: 2px solid #dcd400;
+  border-bottom: unset;
+  margin: 45px 0;
+}
+
+#pistas .largada {
+  width: 105px;
+  height: 90px;
+  background-color: #5f5f5f;
+  border-right: 2px solid #dcd400;
+  border-bottom: 2px solid #dcd400;
+  text-align: center;
+  font-family: "Arial Black";
+  font-size: 50px;
+  color: #ffffff;
+  float: left;
+}
+
+#pistas .pistaCorrer {
+  width: 575px;
+  height: 90px;
+  float: left;
+  background-image: url(../images/final.png);
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #dcd400;
+}
+
+#pistas .final {
+  width: 98px;
+  height: 90px;
+  float: left;
+  background-image: url(../images/final.png);
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #dcd400;
+}
+
+.carro {
+  position: absolute;
+  left: 0px;
+  transition: all 1s;
+}
+
+.vencedor {
+  font-family: Arial;
+  font-size: 30px;
+  color: #b53f3f;
+  text-align: center;
+  text-shadow: 0 0 10px #000000;
+}
+
+.vencedor img, .vencedor p {
+  display: inline-block;
+  vertical-align: middle;
+}

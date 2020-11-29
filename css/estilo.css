@@ -1,0 +1,32 @@
+body {
+  margin: 10px;
+  background: #000000;;
+}
+
+#capa {
+  background-image: url(../images/capa_jogo.png);
+  width: 744px;
+  height: 447px;
+  margin: auto;
+}
+
+#iniciarJogo {
+  background: #f3f3fc;
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+  float: left;
+  margin: 390px 575px 0;
+  width: 150px;
+  display: block;
+  text-align: center;
+  color: #bf1135;
+  border-radius: 110px;
+  font-weight: bold;
+}
+
+#iniciarJogo:hover {
+  background: #bf1135;
+  color: #f3f3fc;
+}
